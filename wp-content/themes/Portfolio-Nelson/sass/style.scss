@@ -1,0 +1,504 @@
+/*!
+Theme Name: Portfolio-Nelson
+Theme URI: http://underscores.me/
+Author: Giridhar
+Author URI: http://www.redacademy.com
+Description: A WordPress starter theme for RED Academy students.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Embedded Fonts
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Asides
+	## Comments
+# Media
+	## Captions
+	## Galleries
+# Page Templates
+	## Front page
+--------------------------------------------------------------*/
+
+// Imported but not included in the stylesheet.
+
+@import "variables";
+@import "mixins";
+
+// CSS included in style.css.
+
+@import "normalize";
+@import "fonts";
+@import "typography";
+@import "elements";
+@import "forms";
+@import "navigation";
+@import "modules";
+@import "widgets";
+@import "content";
+@import "media";
+@import "page-templates";
+
+html header {
+	margin-top: 0 !important;
+}
+header {
+	background-color: #c3ced0;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
+body {
+	font-family: 'Lato';
+	font-weight: 900;
+}
+.site-header {
+	display: flex;
+	margin: 0 auto; 
+}
+.site-branding {
+	width: 30%;
+}
+.site-branding img{
+	margin: 20px 20px;
+}
+.home-button {
+	width: 100%;
+	text-align: center;
+}
+.project-images {
+	width: 100%;
+}
+.main-navigation li {
+	font-family: 'Lato';
+	font-weight: 700;
+}
+.project-images .project-single:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #E1ECEF;
+}
+.project-single:nth-child(odd) #button {
+     width: 12rem;
+     height: 2.5rem;
+     background-color: #99ff99;
+     text-align: center;
+}
+.project-single:nth-child(even) #button {
+     width: 12rem;
+     height: 2.5rem;
+     background-color: #ffd9b3;
+     text-align: center;
+}
+.project-single:nth-child(odd) .image {
+	display: flex;
+	justify-content: flex-end;
+}
+.project-images .project-single:nth-child(even){
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.project-single:nth-child(even) .content {
+	display: flex;
+	align-items: flex-end;
+	width: 55%;
+	margin: 0 auto;
+}
+.project-single:nth-child(even) .image {
+	display: flex;
+	align-items: flex-start;
+	width: 40%;
+}
+.project-images .project-single:nth-child(3) {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+.project-single:nth-child(3) .content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.project-single:nth-child(3) .home-button {
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+.project-single:nth-child(3) .image {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.project-images .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 70%;
+	margin: 2.5rem 2.5rem;
+	font-size: 24px;
+}
+.project-images .image {
+   margin: 2.5rem auto;
+   width: 30%;
+}
+.content-text {
+	font-family: 'Lato';
+	font-weight: 400;
+}
+.content-text p{
+  color: gray;
+}
+.content-text strong {
+	color: #000000;
+}
+#button p {
+	line-height: 0;
+	text-align: center;
+	color: black;
+	font-family: 'Lato',sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+ a:active #button {
+	border: 3px solid red;
+	padding-bottom: 10px;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+	margin: 10rem auto;
+}
+.project-images ul{
+	margin: 0;
+	padding: 0;
+}
+.red {
+	color: #db272a;
+}
+.single-project {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+}
+.single-project h2 {
+	font-weight: 900;
+}
+.single-project p {
+	font-weight: 700;
+}
+.project-image {
+	width: 100%;
+	text-align: center;
+}
+.about-page p {
+	font-weight: 700;
+}
+.about-content {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+.about-image {
+	width: 30%;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.about-text{
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.gifs {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+.gifs img {
+	width: 50%;
+	height: 70%;
+}
+.kanye-gif {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.gif-description {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.video {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.skills h3 {
+	color: #db272a;
+	font-weight: 900;
+}
+.skills .caption {
+	color: gray;
+}
+.skills ul{
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+}
+.skills li{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+.skills-image {
+	display: flex;
+	justify-content: center;
+}
+.skills-image img {
+	max-width: 100%;
+}
+.softwares {
+	text-align: center;
+}
+.softwares h2 {
+	font-weight: bold;
+	margin-top: 2.5rem;
+}
+.softwares ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   align-content: flex-end;
+   padding: 0;
+   width: 60%;
+   margin: 2.5rem auto;
+}
+.softwares li{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    margin: 2.5rem auto;
+}
+ .fa-facebook-square{
+	color:#3C599F;
+}
+.fa-twitter-square {
+	color:#32CCFE;
+} 
+.fa-youtube-play {
+	color:#C52F30;
+}
+.fa-linkedin-square {
+	color:#0085AE;
+}
+.fa-instagram {
+	color:#A1755C;
+}
+footer {
+	background-color: #c3ced0;
+	width: 100%;
+}
+.footer {
+	display: flex;
+}
+.contact {
+	width: 70%;
+	margin: 20px;
+}
+.connect {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0px 20px 20px;
+}
+.footer h2 {
+	color:  #db272a;
+}
+@media screen and (max-width: 600px) {
+	html header {
+	margin-top: 0 !important;
+   }
+	.site-branding {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.site-branding img {
+		margin: 0 auto;
+	}
+	.about-content {
+		display: flex;
+		flex-direction: column;
+	}
+	.about-image{
+		width: 100%;
+	}
+	.about-text {
+		width: 100%;
+		text-align: center;
+	}
+	.main-navigation {
+		display: flex;
+		justify-content: center;
+	}
+    .project-images .project-single:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+   .project-images .project-single:nth-child(even){
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+   }
+   .project-images .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+    }
+   .project-images .image {
+   width: 100%;
+   margin: 2.5rem auto 0 auto;
+   }
+   .project-single:nth-child(odd) .image {
+	display: flex;
+	justify-content: center;
+}
+.home-button {
+	margin-bottom: 2rem;
+}
+.project-single:nth-child(even) .content {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.project-single:nth-child(even) .image {
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+}
+.project-images .project-single:nth-child(3) {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+.project-single:nth-child(3) .content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.project-single:nth-child(3) .home-button {
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+.project-single:nth-child(3) .image {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+   .content-text {
+   	width: 100%;
+   	text-align: center;
+   }
+   .home-button{
+   	text-align: center;
+   }
+   h2,p {
+   	text-align: center;
+   }
+   .skills ul {
+   	display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   padding: 0;
+   width: 100%;
+   margin: 1rem auto;
+   }
+   .skills li {
+   	width: 50%;
+   }
+   .softwares li{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.softwares ul {
+	width: 100%;
+	margin: 0 auto;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+.contact {
+	margin: 0 auto;
+}
+.connect {
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.icons {
+	text-align: center;
+	margin-bottom: 20px;
+}
+body {
+	width: 100%;
+}
+}

@@ -73,6 +73,7 @@ header {
 	position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
 }
 body {
 	font-family: 'Lato';
@@ -477,6 +478,9 @@ footer {
     width: 50%;
     justify-content: center;
     margin: 1rem auto;
+}
+.skills p {
+	font-size: .9rem;
 }
 .softwares ul {
 	width: 100%;

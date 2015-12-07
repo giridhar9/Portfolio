@@ -20,11 +20,11 @@
 				  <div class="connect">
 				  	<h2>CONNECT</h2>
 				  	 <div class="icons">
-				  	 	<i class="fa fa-facebook-square fa-3x"></i>
-				  	 	<i class="fa fa-twitter-square fa-3x"></i>
-				  	 	<i class="fa fa-youtube-play fa-3x"></i>
-				  	 	<i class="fa fa-linkedin-square fa-3x"></i>
-				  	 	<i class="fa fa-instagram fa-3x"></i>
+				  	 	<i class="fa fa-facebook-square fa-2x"></i>
+				  	 	<i class="fa fa-twitter-square fa-2x"></i>
+				  	 	<i class="fa fa-youtube-play fa-2x"></i>
+				  	 	<i class="fa fa-linkedin-square fa-2x"></i>
+				  	 	<i class="fa fa-instagram fa-2x"></i>
 				  	 </div>
 				  	</div>
 				  </div>

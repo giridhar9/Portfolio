@@ -890,6 +890,9 @@ a:active #button {
 .about-page p {
   font-weight: 700; }
 
+.about-page {
+  margin-top: 8rem; }
+
 .about-content {
   display: -webkit-flex;
   display: -ms-flexbox;

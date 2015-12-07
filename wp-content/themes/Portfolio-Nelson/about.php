@@ -5,7 +5,7 @@
 * @package RED_Starter_Theme
 */
 get_header(); ?>
-   <div class="about-page">
+  <div class="about-page">
 	<div class="about-content">
 	  <div class="about-image">
 	    <?php the_post_thumbnail(); ?>

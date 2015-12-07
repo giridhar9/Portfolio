@@ -719,18 +719,18 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  background-color: #E1ECEF; }
+  background-color: #dce3e5; }
 
 .project-single:nth-child(odd) #button {
   width: 12rem;
   height: 2.5rem;
-  background-color: #99ff99;
+  background-color: #97dda5;
   text-align: center; }
 
 .project-single:nth-child(even) #button {
   width: 12rem;
   height: 2.5rem;
-  background-color: #ffd9b3;
+  background-color: #ffe4cf;
   text-align: center; }
 
 .project-single:nth-child(odd) .image {
@@ -839,7 +839,7 @@ body {
   font-weight: 400; }
 
 .content-text p {
-  color: gray; }
+  color: #8f9597; }
 
 .content-text strong {
   color: #000000; }

@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <div class="logo">
-	<img src="<?php echo get_template_directory_uri(); ?>/images/signature.gif?<?php echo date("Ymdgis");?>" alt="logo">
+	<img src="<?php echo get_template_directory_uri(); ?>/images/HomepageLogo.gif?<?php echo date("Ymdgis");?>" alt="logo">
 </div>
 
  

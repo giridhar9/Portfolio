@@ -1258,3 +1258,8 @@ footer {
     margin-bottom: 20px; }
   body {
     width: 100%; } }
+
+.attachment-large {
+  display: block;
+  text-align: center;
+  margin: 131px auto 0 auto; }

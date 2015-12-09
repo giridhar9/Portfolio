@@ -95,14 +95,6 @@ function red_starter_scripts() {
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 
 
-function google_fonts() {
-	$query_args = array(
-		'family' => 'Lato:400, 400italic,900,700,700italic,900italic',
-	);
-	wp_register_style( 'google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
-            }
-            
-add_action('wp_enqueue_scripts', 'google_fonts');
 
 /**
  * Custom template tags for this theme.
@@ -113,3 +105,4 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+

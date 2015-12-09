@@ -20,3 +20,16 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+
+function ap_redirect() {
+
+	if ( is_post_type_archive('project') ) {
+		wp_redirect( home_url(),301);
+		exit;
+	} if (is_404()){
+		wp_redirect( home_url(),301);
+		exit;
+	}
+}
+add_action( 'template_redirect', 'ap_redirect' );

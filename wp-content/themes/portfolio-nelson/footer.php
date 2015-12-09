@@ -14,8 +14,8 @@
 				  <div class="footer">
 				   <div class="contact">
 				    <h2>CONTACT</h2>
-				      <p>Vancouver, BC</p>
-				      <p>nlsnchw@gmail.com</p>
+			      <p>Vancouver, BC</p>
+			      <p>nlsnchw@gmail.com</p>
 				  </div>
 				  <div class="connect">
 				  	<h2>CONNECT</h2>
@@ -28,12 +28,9 @@
 				  	 </div>
 				  	</div>
 				  </div>
-
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
-
 		<?php wp_footer(); ?>
-
 	</body>
 </html>

@@ -33,7 +33,7 @@ $blog_posts = get_posts( $args );
 
       <a href="<?php the_permalink(); ?>">
        <button id="button">
-         <p>Learn More</p>
+         Learn More
        </button>
      </a>
    </div>
@@ -61,9 +61,7 @@ $skills_posts = get_posts( $args );
         <?php the_title(); ?>
       </h3>
       <div>
-        <p>
           <?php the_content(); ?>
-        </p>
       </div>
       <div class="caption">
         <p><?php echo CFS()->get('title'); ?></p> 

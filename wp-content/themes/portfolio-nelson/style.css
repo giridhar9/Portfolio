@@ -43,6 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic);
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -222,9 +223,6 @@ th {
 li {
   list-style: none; }
 
-/*--------------------------------------------------------------
-# Embedded Fonts
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -848,7 +846,7 @@ body {
   line-height: 0;
   text-align: center;
   color: black;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 14px; }
 

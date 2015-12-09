@@ -13,7 +13,8 @@ get_header(); ?>
 
 	<div class="about-text">
 	  <?php
-	    $page_data = get_page();
+	    $pageId = 86;
+      $page_data = get_page($pageId);
 	     echo '<h3>'. $page_data->post_content .'</h3>'; 
 	     ?>
 	  </div>

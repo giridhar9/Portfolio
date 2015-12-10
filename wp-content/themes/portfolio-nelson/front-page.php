@@ -68,7 +68,6 @@ $skills_posts = get_posts( $args );
       <div class="caption">
         <p><?php echo CFS()->get('title'); ?></p> 
       </div>
-
     </div>
   </li>
 

@@ -113,6 +113,10 @@ body {
 	background-color: #97dda5;
 	text-align: center;
 }
+.project-single:nth-child(odd) .home-button {
+	text-align: left;
+
+}
 .project-single:nth-child(even) #button {
 	width: 12rem;
 	height: 2.5rem;
@@ -201,7 +205,7 @@ a:active #button {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin: 10rem auto;
+	margin: 12rem auto 5rem auto;
 }
 .project-images ul{
 	margin: 0;
@@ -239,12 +243,14 @@ a:active #button {
 	margin: 0 auto;
 }
 .about-image {
-	width: 30%;
+	width: 100%;
+	text-align: center;
 	margin-top: 15px;
 	margin-right: 30px;
 }
 .about-text{
-	width: 70%;
+	width: 100%;
+	text-align: center;
 	margin-top: 15px;
 	margin-left: 10px;
 }

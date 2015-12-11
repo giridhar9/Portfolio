@@ -16,6 +16,7 @@ get_header(); ?>
       <a href="<?php echo ot_get_option( 'resume-file' ); ?>">
       <h2>DOWNLOAD MY RESUME</h2>
       </a>
+    </div>
     <div class="about-text">
       <div class="about-nelson">
        <?php

@@ -20,13 +20,13 @@
 				  <div class="connect">
 				  	<h2>CONNECT</h2>
 				  	 <div class="icons">
-				  	 	<i class="fa fa-facebook-square fa-2x"></i>
-				  	 	<i class="fa fa-twitter-square fa-2x"></i>
-				  	 	<i class="fa fa-youtube-play fa-2x"></i>
-				  	 	<i class="fa fa-linkedin-square fa-2x"></i>
-				  	 	<i class="fa fa-instagram fa-2x"></i>
+				  	 	<a href="https://www.facebook.com/nlsnchw"><i class="fa fa-facebook-square fa-2x"></i></a>
+				  	 	<a href="https://twitter.com/nlsnchw"><i class="fa fa-twitter-square fa-2x"></i></a>
+				  	 	<a href="https://www.youtube.com/channel/UCMN2MkObjCdCnBg2oTAI_Bg"><i class="fa fa-youtube-play fa-2x"></i></a>
+				  	 	<a href="https://ca.linkedin.com/in/nelson-chow-43433a108"><i class="fa fa-linkedin-square fa-2x"></i></a>
+				  	 	<a href="https://www.instagram.com/nlsnchw/"><i class="fa fa-instagram fa-2x"></i></a>
 				  	 </div>
-				  	</div>
+				  </div>
 				  </div>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->

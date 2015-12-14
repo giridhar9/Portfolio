@@ -354,18 +354,24 @@ footer {
 	display: flex;
 }
 .contact {
-	width: 70%;
+	width: 45%;
 	margin: 20px;
 }
 .connect {
-	width: 25%;
-	display: flex;
-	flex-direction: column;
-	margin: 20px 0px 20px 20px;
+	width: 50%;
+    display: flex;
+    margin-left: auto;
+    align-items: flex-end;
+    align-content: left;
+    text-align: left;
+    flex-direction: column;
+	margin: 20px;
 }
 .footer h2 {
 	color:  #db272a;
 }
+
+
 @media screen and (max-width: 600px) {
 	html header {
 		margin-top: 0 !important;
@@ -398,6 +404,9 @@ footer {
 		flex-direction: column;
 		margin: 0 auto;
 	}
+	.project-single:nth-child(odd) .home-button {
+	text-align: center;
+    }
 	.project-images .project-single:nth-child(even){
 		display: flex;
 		margin: 0 auto;
@@ -502,11 +511,11 @@ footer {
 		margin: 0 auto;
 	}
 	.connect {
-		width: 55%;
+		width: 100%;
 		margin: 0 auto;
 		display: flex;
+		align-items: center;
 		flex-direction: column;
-		justify-content: center;
 	}
 	.icons {
 		text-align: center;

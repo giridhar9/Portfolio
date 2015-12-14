@@ -1050,18 +1050,26 @@ footer {
   display: flex; }
 
 .contact {
-  width: 70%;
+  width: 45%;
   margin: 20px; }
 
 .connect {
-  width: 25%;
+  width: 50%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-align-content: left;
+      -ms-flex-line-pack: left;
+          align-content: left;
+  text-align: left;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 20px 0px 20px 20px; }
+  margin: 20px; }
 
 .footer h2 {
   color: #db272a; }
@@ -1102,6 +1110,8 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0 auto; }
+  .project-single:nth-child(odd) .home-button {
+    text-align: center; }
   .project-images .project-single:nth-child(even) {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1247,17 +1257,17 @@ footer {
   .contact {
     margin: 0 auto; }
   .connect {
-    width: 55%;
+    width: 100%;
     margin: 0 auto;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+            flex-direction: column; }
   .icons {
     text-align: center;
     margin-bottom: 20px; }
